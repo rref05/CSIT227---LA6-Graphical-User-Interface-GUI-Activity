@@ -1,0 +1,31 @@
+Pizza Order System
+  Create a GUI application titled "Pizza Order System" that allows users to customize their pizza order. The application should include the following components:
+  The following is the detailed list of components:
+  • Choice
+    o Name - pizzaSizeChoice
+    o Options - Small, Medium, Large
+    o Purpose - Allows the user to select the size of the pizza.
+  • Choice
+    o Name - pizzaToppingsChoice
+    o Options - Mushrooms, Pepperoni, Onions
+    o Purpose - Allows the user to select the toppings for the pizza.
+  • Choice
+    o Name - extraCheeseChoice
+    o Options - Yes, No
+    o Purpose - Allows the user to choose whether to add extra cheese to the pizza.
+  • Label
+    o Name - totalLabel
+    o Purpose - Displays the total price of the pizza.
+  • Button
+    o Name - calculateButton
+    o Text - "Calculate Total"
+    o Functionality - When clicked, calculates the total price of the pizza based on the selected options and displays it in the totalLabel.
+  Notes:
+  • The pricing rules are as follows:
+    o Small pizza (S): $10
+    o Medium pizza (M): $15
+    o Large pizza (L): $20
+  • Each topping adds $2 to the total. If "Extra Cheese" is selected, it adds an additional
+  $3.
+  • Use setName() to set the names of the components. Variable names do not count as
+  the name.
