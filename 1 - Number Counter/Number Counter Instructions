@@ -1,0 +1,18 @@
+Number Counter
+Create a GUI application titled "Number Counter", that contains a single label and two buttons.
+The following is the detailed list of components:
+  • Label
+    o Name - countLabel
+    o Default Text - "0"
+  • Button
+    o Name - increaseButton
+    o Text - "Increase"
+    o Functionality - Clicking this button should increment the value displayed in the countLabel by 1.
+  • Button
+    o Name - decreaseButton
+    o Text - "Decrease"
+    o Functionality - Clicking this button should decrement the value displayed in the countLabel by 1.
+  
+  Note:
+  • Use setName() to set the names of the components. Variable names do not count as
+  the name
