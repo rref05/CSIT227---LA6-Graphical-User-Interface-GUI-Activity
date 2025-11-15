@@ -1,0 +1,41 @@
+Geography Quiz
+Create an application titled "Geography Quiz" that allows users to answer a series of questions about world capitals.
+The following is the detailed list of components:
+• Panel
+  o Name - panel1
+• TextField
+  o Name - question1TextField
+  o Description - Inside panel1
+  o Purpose - Allows the user to input their answer on the question "What is the capital of France?".
+• Panel
+  o Name - panel2
+• TextField
+  o Name - question2TextField
+  o Description - Inside panel2
+  o Purpose - Allows users to enter their answer to the second question "What is the capital of Japan?".
+• Panel
+  o Name - panel3
+• TextField
+  o Name - question3TextField
+  o Description - Inside panel3
+  o Purpose - Allows users to enter their answer to the third question "What is the capital of Germany?".
+• Panel
+  o Name - panel4
+  o Purpose - Displays a congratulatory message for finishing the quiz.
+• Label
+  o Name - scoreLabel
+  o Description - Exists in all panels
+  o Text - "Your Score: X/3" where X is the number of correct answers.
+  o Purpose - Displays the current score.
+• Button
+  o Name - nextButton
+  o Purpose - Allows users to navigate to the next panel. Visible except on Panel4
+• Button
+  o Name - backButton
+  o Purpose - Allows users to navigate back to the previous panel. Visible except on Panel1
+
+Notes:
+• Correct answers "Paris", "Tokyo", "Berlin" in each panel respectively.
+• Score is computed and label is updated every click of nextButton.
+• Use setName() to set the names of the components. Variable names do not count as
+the name.
